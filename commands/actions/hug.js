@@ -7,7 +7,7 @@ module.exports = {
 		.setName('hug')
 		.setDescription('Hugs a user.'),
 	async execute(interaction) {
-        i=Math.floor(Math.random() * 5);
+        i=Math.floor(Math.random() * 15);
 		await interaction.reply(gifs[i]);
 	},
 };
